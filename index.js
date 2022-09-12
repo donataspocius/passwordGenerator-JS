@@ -1,5 +1,3 @@
-let vowels = "aeiou";
-
 document.addEventListener("submit", function (e) {
   e.preventDefault();
   let generatedPasw;
