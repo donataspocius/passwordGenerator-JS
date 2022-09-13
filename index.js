@@ -4,6 +4,7 @@ document.addEventListener("submit", function (e) {
   let { basicPass: pass, serviceName: name } = Object.fromEntries(
     new FormData(e.target)
   );
+  document.querySelector("#input-data").reset();
   passGenerator(pass, name);
   render(generatedPasw);
 });
